@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>645681365475-4vfnfe1gb60fe33gvcnsujlec1ir25ds.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.645681365475-4vfnfe1gb60fe33gvcnsujlec1ir25ds</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>645681365475-ur5nq2hnj6qne0liirdbc05liusvhfvt.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC6dJIzLNHiGsr2UTjSFHoBc_Mqte3JV9E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>645681365475</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mycompany.essaiapp</string>
+	<key>PROJECT_ID</key>
+	<string>essais-divers-fflow</string>
+	<key>STORAGE_BUCKET</key>
+	<string>essais-divers-fflow.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:645681365475:ios:6173296f5cbdffc49fe0d6</string>
+</dict>
+</plist>
