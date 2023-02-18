@@ -31,7 +31,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
     super.initState();
     _model = createModel(context, () => EditProfileModel());
 
-    _model.yourNameController =
+    _model.yourNameController ??=
         TextEditingController(text: currentUserDisplayName);
   }
 
@@ -274,7 +274,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                       ),
                       focusedBorder: OutlineInputBorder(
                         borderSide: BorderSide(
-                          color: FlutterFlowTheme.of(context).primaryBackground,
+                          color: Color(0x00000000),
                           width: 2,
                         ),
                         borderRadius: BorderRadius.circular(8),

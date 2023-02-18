@@ -37,7 +37,7 @@ class _SecondpageWidgetState extends State<SecondpageWidget> {
     super.initState();
     _model = createModel(context, () => SecondpageModel());
 
-    _model.textMemoController = TextEditingController();
+    _model.textMemoController ??= TextEditingController();
   }
 
   @override
@@ -195,7 +195,7 @@ class _SecondpageWidgetState extends State<SecondpageWidget> {
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(
-                        color: FlutterFlowTheme.of(context).primaryColor,
+                        color: Color(0x00000000),
                         width: 1,
                       ),
                       borderRadius: BorderRadius.circular(20),
