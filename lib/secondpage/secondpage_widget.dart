@@ -73,7 +73,7 @@ class _SecondpageWidgetState extends State<SecondpageWidget> {
           },
         ),
         title: Text(
-          'Page Title',
+          'Signalement',
           style: FlutterFlowTheme.of(context).title2.override(
                 fontFamily: 'Poppins',
                 color: Colors.white,
