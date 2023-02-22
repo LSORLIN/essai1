@@ -56,7 +56,7 @@ class _SecondpageWidgetState extends State<SecondpageWidget> {
       key: scaffoldKey,
       backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
       appBar: AppBar(
-        backgroundColor: Color(0xB6D239BC),
+        backgroundColor: FlutterFlowTheme.of(context).tertiary400,
         automaticallyImplyLeading: false,
         leading: FlutterFlowIconButton(
           borderColor: Colors.transparent,
